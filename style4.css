@@ -1,0 +1,72 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: sans-serif;
+}
+.logo{
+	background: url(logo.png) no-repeat;
+	size: cover;
+	
+	}
+
+.navigation{
+	background-color: black;
+	width: 100%;
+	height: 60px;
+	
+}
+
+.home{
+	float: left;
+	font-size: 14px;
+	height: 50px;
+	padding: 15px 60px;
+	font-weight: bold;
+	line-height: 30px;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+.home a:hover{
+	background-color:white;
+	color:black;
+	display: block;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#image-changer{
+
+	width: 100%;
+	height: 600px;
+	margin:30px auto;
+	border: 1px solid #000;
+	background: url("adm_slide.jpg") no-repeat;
+	border-radius: 3px;
+	background-size: cover;
+	margin-top: 1px;
+
+	-webkit-transition: background 0.7s;
+	-moz-transition:background 0.7s;
+	transition:background 0.7s;
+}
+#footer{
+	width: 100%;
+	height: 60px;
+	line-height: 30px;
+	padding-top: 10px;
+	font-size: 14px;
+	color: white;
+	background: black;
+	text-align: center;
+	margin-top: -30px;
+	border-top: 1px solid white;
+}
+li{
+	font-size: 30px;
+}
+
